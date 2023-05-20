@@ -1,0 +1,664 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Whales Save Whales</title>
+  <link rel="shortcut icon" href="assets/images/favicon.png" />
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+    integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous" />
+  <!-- Font Awesome CDN -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+    crossorigin="anonymous" />
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Oswald:wght@700&family=Poppins:wght@400;500;600&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdn.rawgit.com/t4t5/sweetalert/v0.2.0/lib/sweet-alert.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+  <!-- Animate CDN -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+  <!-- Custom Stylesheet -->
+  <link rel="stylesheet" href="assets/css/style.css" />
+  <script src="assets/js/script.js"></script>
+  <!-- Owl Carousel -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+    integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+  <header>
+    <nav class="navbar navbar-expand-xl navbar-dark main_header">
+      <a class="navbar-brand mr-0" href="index.html"><img src="assets/images/logo.png" class="img-fluid" /></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+        aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+        <div class="navbar-nav main_nav">
+          <a class="nav-link js-scroll-trigger smoothScroll active" href="#home">Home</a>
+          <a class="nav-link js-scroll-trigger smoothScroll" href="#captivity">Captivity</a>
+          <a class="nav-link js-scroll-trigger smoothScroll" href="#Media">Media</a>
+          <a class="nav-link js-scroll-trigger smoothScroll" href="#smooshi">Smooshi</a>
+          <a class="nav-link js-scroll-trigger smoothScroll" href="#obstacles">Obstacles</a>
+          <a class="nav-link js-scroll-trigger smoothScroll" href="#solutions">Solutions</a>
+          <a class="nav-link js-scroll-trigger smoothScroll" href="#mission">Mission</a>
+        </div>
+        <div class="nav_button text-center">
+          <a href="#donate" class="btn btn-theme smoothScroll">Donate</a>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Hero_Section -->
+    <section class="hero position-relative" id="home">
+      <div class="container-fluid p-0">
+        <div class="owl-carousel owl-theme hero_carousel">
+          <div class="item">
+            <div class="row">
+              <div class="col p-0">
+                <div class="bg_overlay"></div>
+                <video autoplay muted loop>
+                  <source src="assets/videos/hero_video.mp4" type="video/mp4" />
+                </video>
+                <div class="hero_content">
+                  <!-- removed text here (was already commented out)-->
+                </div>
+
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="row">
+              <div class="col p-0">
+                <div class="bg_overlay"></div>
+                <video autoplay muted loop>
+                  <source src="assets/videos/hero_video_2.mp4" type="video/mp4" />
+                </video>
+                <div class="hero_content">
+                  <!-- removed text here (was already commented out) -->
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+          <div class="counter_box" data-aos="fade-up" data-aos-duration="1200">
+            <h1 class="main_title" data-aos="fade-up" data-aos-duration="800">
+                R.I.P. Kiska 1976-2023
+            </h1>
+            <p class="text-right">
+                <span>Age: </span><span class="age value">43 years, 141 days</span><br>
+                <span>Time in captivity: </span><span class="value">43 years, 141 days</span><br>
+                <span>Time in solitary confinement: </span><span class="value">11 years, 128 days</span><br>
+                <span>Number of orcas dead at MarineLand Canada: </span><span class="value">21</span><br>
+                <span>Number of those that were Kiska's own calves: </span><span class="value">5</span>
+            </p>
+            <p class="additional-info">
+              <span class="highlight">Orcas remain in captivity.</span><br>
+              USA: 20,  China: 13,  Europe: 12,  Japan: 7,  South America: 1<br>
+              Global: <span class="red-highlight">54</span> known captives,  <span class="red-highlight">175+</span> and counting <span class="red-highlight">dead in captivity</span>.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="services position-relative py-5" id="captivity">
+      <div id="p5-container" class="p5-iframe-container">
+        <iframe src="assets/js/p5_sketch.html" frameborder="0" scrolling="no" style="width: 100%; height: 100vh;"></iframe>
+      </div>
+      <div class="container">
+        <div class="row py-5 text-white align-items-center" style="z-index: 999">
+          <div class="col-lg-5" data-aos="fade-right" data-aos-duration="1500">
+            <h4 class="sub_title">Can you imagine what it might feel like?</h4>
+            <h1 class="main_title">Cruel and Unusual</h1>
+            <p>
+              There are at least 54 known orcas in captivity across the globe, 175+ have perished in captivity, and
+              counting..<br>
+              Whales Save Whales. Vote with your <a class="smoothScroll" href="#donate">wallet</a>.
+            </p>
+            <div class="service_tabs mt-4">
+              <nav>
+                <div class="nav nav-tabs" id="nav-tab" role="tablist">
+                  <a class="nav-item nav-link active" id="nav-home-tab" data-toggle="tab" href="#nav-home" role="tab"
+                    aria-controls="nav-home" aria-selected="true">Life Span</a>
+                  <a class="nav-item nav-link" id="nav-profile-tab" data-toggle="tab" href="#nav-profile" role="tab"
+                    aria-controls="nav-profile" aria-selected="false">Mental Health</a>
+                  <a class="nav-item nav-link" id="nav-contact-tab" data-toggle="tab" href="#nav-contact" role="tab"
+                    aria-controls="nav-contact" aria-selected="false">Physical Health</a>
+                </div>
+              </nav>
+              <div class="tab-content" id="nav-tabContent">
+                <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
+                  Marine Mammal Science found the average lifespan of captive orcas to be only 12 years.<br>
+                  In the wild, orcas live 30-90+ years
+                </div>
+                <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
+                  Captive orcas suffer boredom, depression, psychosis, aggression, bullying from other captive orcas,
+                  isolation from family, and even total isolation from all other cetaceans (solitary confinement like
+                  Kiska).<br>
+                  Captive females are often artificially inseminated at extremely young ages, with little to no family
+                  support (all 5 of Kiska’s calves born in captivity have perished).<br>
+                  In the wild these are intelligent, social, family oriented animals, that live their lives together in
+                  pods, teaching each other lessons and culture from past generations and the oceans they live in.
+                </div>
+                <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab">
+                  All captive male orcas have a collapsed dorsal fin, which is very rare in the wild.<br>
+                  Captive orcas suffer extreme tooth decay and wear (often to the point of losing all their teeth) from
+                  grinding on their cages and tanks.<br>
+                  Tiny concrete pools drastically limit (or eliminate) their ability to dive and swim at high
+                  speeds.<br>
+                  Captive orcas get sun burns and cataracts from sun exposure due to shallow unnatural water.
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-7 text-center" data-aos="fade-left" data-aos-duration="1500">
+            <img src="assets/images/k33-versus-seaworld.jpg" class="img-fluid" />
+            <p data-aos="fade-left" data-aos-duration="1200" class="mt-2 text-white">
+              Source: SeaWorld Fact Check / Whiting 2015
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="partner position-relative py-5" id="Media">
+      <div class="container">
+          <div class="row text-center justify-content-center py-5">
+              <div class="col-lg-8">
+                  <h1 class="main_title" data-aos="fade-up" data-aos-duration="1200">
+                      In the media
+                  </h1>
+              </div>
+          </div>
+          <div class="row justify-content-center">
+              <!-- First Column -->
+              <div class="col-lg-3 text-center">
+                  <img src="assets/images/WatW.jpg" alt="movie poster" class="img-fluid rounded" />
+                  <p data-aos="fade-up" data-aos-duration="1300">
+                      <small>Watch the critically acclaimed film <a href="https://www.walrusandwhistleblower.com"><em>The Walrus and the Whistleblower</em></a> produced by Nathalie
+                          Bibeau if you are interested in Phil’s story. It will show you the pain and passion that drives Phil and many other activists.</small>
+                  </p>
+              </div>
+              <!-- Second Column -->
+              <div class="col-lg-6 text-center">
+                  <iframe width="560" height="315" src="https://www.youtube.com/embed/hDgKGGywULI?controls=0"
+                      title="YouTube video player" frameborder="0"
+                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                      allowfullscreen style="max-width: 100%;"></iframe>
+                  <p data-aos="fade-up" data-aos-duration="1300">
+                      <small>Phil has appeared on The Joe Rogan Experience 5 times: #425 (2013), #743 (2016), #1076 (2018),
+                          #1297 (2019), #1590 (2021).<br>
+                          And many other podcasts, news stations, publications, and documentaries.</small>
+                  </p>
+              </div>
+              <!-- Third Column -->
+              <div class="col-lg-3 text-center">
+                  <p data-aos="fade-up" data-aos-duration="1300">
+                      <small><p data-aos="fade-up" data-aos-duration="1300">
+                        <small>&#9888; Trigger Warning (Sound On) &#9888;</small>
+                    </p>
+                    </small>
+                  </p>
+                  <blockquote class="twitter-tweet">
+                      <a href="https://twitter.com/walruswhisperer/status/1636101156781867008?ref_src=twsrc%5Etfw"></a> 
+                  </blockquote> 
+                  <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                  <p data-aos="fade-up" data-aos-duration="1300">
+                    <small><p data-aos="fade-up" data-aos-duration="1300">
+                      <small>&#9888; Trigger Warning (Sound On) &#9888;</small>
+                  </p>
+                  </small>
+                </p>
+              </div>
+          </div>
+      </div>
+  </section>
+  
+
+    <section class="skew_bg py-5" id="smooshi">
+      <div class="skew-overlay right"></div>
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-8 text-center skew-header">
+            <h1 class="main_title" data-aos="fade-up" data-aos-duration="1000" style="text-shadow: 0 0 10px black">
+              THE JOURNEY TO SAVE SMOOSHI
+            </h1>
+          </div>
+        </div>
+        <div class="row pt-5 skew-content justify-content-between">
+          <div class="col-lg-5">
+            <p data-aos="fade-right" data-aos-duration="1200">
+              Phil Demers shares a unique bond with Smooshi the walrus. During his 12-year tenure at Marineland, Phil 
+              became Smooshi's surrogate mother, an event transcending the boundaries of species.
+            </p>
+            <p data-aos="fade-right" data-aos-duration="1200">
+              However, witnessing increasing neglect and cruelty towards marine animals at Marineland, Phil decided to 
+              part ways and voice concerns about the park's water quality, staffing issues, and disregard for animal 
+              welfare. Marineland retaliated with a decade-long lawsuit against Phil, to silence him and others.
+            </p>
+            <p data-aos="fade-right" data-aos-duration="1200">
+              With the support of friends, family, and a global community, Phil stood resolute against Marineland's 
+              abuses. And after nine grueling years of legal battles, Marineland was finally forced to attend court in 2022.
+            </p>
+            <p data-aos="fade-right" data-aos-duration="1200">
+              A pivotal moment arrived in February 2023 when Smooshi and her pup, Koyuk, were liberated from Marineland 
+              and moved to SeaWorld Abu Dhabi. Despite debates about 'freedom', there's no denying that this move marks 
+              a magnificent upgrade from Smooshi's previous environment. For Phil, although the distance poses a challenge, 
+              the relief of knowing Smooshi and Koyuk are in a better place is immeasurable.
+            </p>
+            <p data-aos="fade-right" data-aos-duration="1200">
+              Tragically, a week later, Kiska, the last orca in captivity in Canada, passed away at Marineland. This painful 
+              event highlights the urgency of our cause and the significance of Smooshi and Koyuk's liberation. And yet 
+              more animals continue to perish in MarineLand's tanks. In Phil's words, 'Being sad about dolphin and whale 
+              deaths at MarineLand isn't enough. We need investigations and exposes. How are they still able to operate as 
+              a legal business? Their whales and dolphins are dying en masse. Institutions are complacent once again.'
+            </p>
+            <p data-aos="fade-right" data-aos-duration="1200">
+              Ongoing litigation with MarineLand CONTINUES today. To support Phil and the fight against MarineLand, check 
+              out his GoFundMe page (<a href="https://www.gofundme.com/f/wpxc9-defend-animal-abuse-whistleblower"
+                target="_blank" class="text-dark">here</a>), and his personal ETH & BTC wallets here:
+            </p>
+            <ul class="list-unstyled" data-aos="fade-right" data-aos-duration="1200">
+              <li>
+                <p><code class="text-info-smoooshi"><i class="fas fa-check-circle mr-2"></i>BTC (Phil Demers personal
+                    wallet):<span class="btc-code1"> 3BRgesrjFFeQYDRNPERyzo5DehMmpJMd5R</span> <span
+                      onclick="copyToClipboard('.btc-code1')" role="button">[COPY]</span></code>
+                </p>
+              </li>
+              <li>
+                <p><code class="text-info-smoooshi"><i class="fas fa-check-circle mr-2"></i>ETH (Phil Demers personal
+                    wallet):<span class="eth-code1"> 0x5034eF24d50c55148326cFFa54B27eF1c2d73f13</span> <span
+                      onclick="copyToClipboard('.eth-code1')" role="button">[COPY]</span></code>
+                </p>
+              </li>
+            </ul>
+            </p>
+          </div>
+          <div class="col-lg-7" data-aos="fade-left" data-aos-duration="1200">
+            <!-- owl -->
+            <div class="owl-carousel owl-theme skew_carousel position-relative">
+              <div class="item">
+                <img src="assets/images/smooshi-slider/img (1).jpeg" class="img-fluid" />
+              </div>
+              <div class="item">
+                <img src="assets/images/smooshi-slider/img (1).jpg" class="img-fluid" />
+              </div>
+              <div class="item">
+                <img src="assets/images/smooshi-slider/img (1).png" class="img-fluid" />
+              </div>
+              <div class="item">
+                <img src="assets/images/smooshi-slider/img (2).jpeg" class="img-fluid" />
+              </div>
+              <div class="item">
+                <img src="assets/images/smooshi-slider/img (2).jpg" class="img-fluid" />
+              </div>
+              <div class="item">
+                <img src="assets/images/smooshi-slider/img (3).jpg" class="img-fluid" />
+              </div>
+              <div class="item">
+                <img src="assets/images/smooshi-slider/img (4).jpg" class="img-fluid" />
+              </div>
+              <div class="item">
+                <img src="assets/images/smooshi-slider/img (5).jpg" class="img-fluid" />
+              </div>
+              <div class="item">
+                <img src="assets/images/smooshi-slider/img (6).jpg" class="img-fluid" />
+              </div>
+              <div class="item">
+                <img src="assets/images/smooshi-slider/img (7).jpg" class="img-fluid" />
+              </div>
+            </div>
+            <p data-aos="fade-left" data-aos-duration="1200" class="mt-2">
+              Various sources: Marineland Demonstrations, Phil, & Smooshi
+            </p>
+            <br><br> <!-- fix this bootstrap spacing and remove breaks -->
+            <div class="mt-4 text-center" data-aos="fade-left" data-aos-duration="1500">
+              <img src="assets/images/smooshi_saved.jpg" class="img-fluid" />
+              <p data-aos="fade-left" data-aos-duration="1200" class="mt-2">
+                #SavedSmooshi
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="about obstacles py-5" id="obstacles">
+      <div class="container">
+        <div class="row justify-content-around align-items-center py-5">
+          <div class="col-lg-6">
+            <div class="img_box" data-aos="fade-right" data-aos-duration="1000">
+              <img src="assets/images/trust.png" class="img-fluid" />
+              <p class="text-right">Source: Messari Report 2022 / a16z: How to Win the Future</p>
+            </div>
+          </div>
+          <div class="col-lg-6 mt-lg-0 mt-5">
+            <!-- <h4 class="sub_title" data-aos="fade-up" data-aos-duration="800">
+              about us
+            </h4> -->
+            <h2 class="main_title" data-aos="fade-in" data-aos-duration="1000">
+              MORE OBSTACLES
+            </h2>
+            <p data-aos="fade-left" data-aos-duration="1200">
+              Trust in institutions is at an all-time low, and the reasons are not hidden. We've seen too much corruption, 
+              collusion, and lack of transparency. It's reached a point where literally no institutions are seen as both 
+              competent and ethical. Even well-intentioned Non-Governmental Organizations, which aim to defend rights and 
+              promote humanitarian causes, can struggle with operational competency.
+            </p>
+            <p data-aos="fade-left" data-aos-duration="1200">
+              Mismanaged funds, high overhead costs, and ineffective planning and execution 
+              are not uncommon. As a result, only a fraction of invested funds actually reach their intended target.
+            </p>
+            <p data-aos="fade-left" data-aos-duration="1200">
+              But where there are obstacles, there also lies opportunity. What if we could reshape this model? What if 
+              we could provide a solution that ensures transparency, efficiency, and direct impact?
+            </p>
+            <a href="#donate" class="smoothScroll btn-cause" data-aos="fade-up" data-aos-duration="1500">Donate to a
+              transparent community driven cause</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="solutions" id="solutions">
+      <div class="container">
+        <div class="align-items-center min-vh-100 row justify-content-center">
+          <div class="col-lg-12">
+            <h1 class="main_title text-center mb-5 mx-auto" data-aos="fade-up" data-aos-duration="1000"
+              style="width: fit-content;">
+              Solutions
+            </h1>
+            <p data-aos="fade-up" data-aos-duration="1200">Imagine a world where every person can make a difference. 
+              A world where technology, culture, finance, and governance converge to create a historic shift. Welcome 
+              to the blockchain revolution!</p>
+
+            <p data-aos="fade-up" data-aos-duration="1200">Ever heard of terms like DAOs, NFTs, DeFi, Web3? They're 
+              transforming our world, creating transparent, decentralized networks that empower us to act without barriers. 
+              These technologies, like Ethereum and its Smart Contracts, have withstood the test of time, proving their 
+              resilience over years of development and application. Bitcoin, after more than a decade, is now an accepted 
+              legal tender in some parts of the world!</p>
+
+            <p data-aos="fade-up" data-aos-duration="1200">Blockchain technology is not just about finance; it's about 
+              uniting people in a common cause. Enter Decentralized Autonomous Organizations - a tool that unlocks new 
+              possibilities for human collaboration, becoming an integral part of our evolving world.</p>
+
+            <p data-aos="fade-up" data-aos-duration="1200">Perhaps you're already part of this revolution. Maybe you're 
+              a crypto guru, or a blockchain enthusiast, or you've just made your first foray into the digital world. 
+              Regardless, we have an invitation for you - a call to action. The real-world giants of the sea need our help. 
+              We want to leverage the power of Web3, crypto, NFTs, and DAOs to build a better world for marine animals. 
+              Join us by donating, participating, and spreading the word. Together, we can make waves in the digital and 
+              natural world alike.</a>
+            </p>
+            <h5 data-aos="fade-up" data-aos-duration="1200">#WhalesSaveWhales</h5>
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="about py-5" id="mission">
+      <div class="container">
+        <!-- single column layout -->
+        <div class="row justify-content-center py-5">
+          <div class="col-lg-9 text-center"> <!-- adjust the column size to your preference -->
+            <h2 class="main_title" data-aos="fade-in" data-aos-duration="1000">
+              Mission
+            </h2>
+            <p data-aos="fade-right" data-aos-duration="1200">
+              At WhalesSaveWhales, our mission is to solve the captivity dilemma. We believe in a world where marine 
+              animals swim freely, not confined to aquarium tanks. And we're using the global coordination tool of 
+              blockchain technology to make this vision a reality.
+            </p>
+            <p data-aos="fade-right" data-aos-duration="1200">
+              Our immediate goal is to nurture and protect our treasury, ensuring any expenditure is made thoughtfully, 
+              effectively, and transparently through our Decentralized Autonomous Organization (DAO). But what does the 
+              future hold for a grassroots, benevolent DAO like ours?
+            </p>
+          </div>
+        </div>
+    
+        <!-- two column layout -->
+        <div class="row justify-content-around py-5">
+          <!-- first column for bullet points -->
+          <div class="col-lg-6 mt-lg-0 mt-5">
+            <p data-aos="fade-right" data-aos-duration="1500">Our Vision:</p>
+            <ul class="list-unstyled" data-aos="fade-right" data-aos-duration="1500">
+              <li>
+                <i class="fas fa-check-circle mr-1"></i>We envision a global community, bound by a shared passion for 
+                marine conservation. A community that promotes knowledge, encourages activism, and fosters kindness and 
+                mutual support.
+              </li>
+              <li>
+                <i class="fas fa-check-circle mr-1"></i>Our journey involves forging partnerships with artists who align 
+                with our cause, enriching not only their creative expressions but also our community and our mission.
+              </li>
+              <li>
+                <i class="fas fa-check-circle mr-1"></i>We aim to build a robust treasury, generating sustainable income 
+                through interest and royalties, which will be used to fund our conservation initiatives.
+              </li>
+              <li>
+                <i class="fas fa-check-circle mr-1"></i>We plan to fund both internal proposals and external 
+                organizations, all working towards our mission of marine life preservation.
+              </li>
+              <li>
+                <i class="fas fa-check-circle mr-1"></i>But our most ambitious goal? Building seaside sanctuaries for 
+                captive marine animals. We envision a network of sanctuaries where these magnificent creatures can live 
+                in peace and freedom. This goal involves not only constructing and maintaining these sanctuaries but also 
+                negotiating for the release of captive animals and arranging their safe relocation.
+              </li>
+              <li>
+                <i class="fas fa-check-circle mr-1"></i>In a world beyond captivity, our vision expands further. We plan 
+                to establish Emergency Rescue Teams to assist wild marine animals in distress. Additionally, we aim to 
+                pivot our efforts towards Ocean Cleanup, advocating for clean energy initiatives, and promoting the overall 
+                health of our oceans.
+              </li>
+              <li>
+                <i class="fas fa-check-circle mr-1"></i>Join us as we turn these aspirations into a reality, because 
+                together, we can change the course of captivity and marine life conservation.
+              </li>
+            </ul>
+          </div>
+    
+          <!-- second column for image -->
+          <div class="col-lg-6">
+            <div class="img_box" data-aos="fade-left" data-aos-duration="1000">
+              <img src="assets/images/coast.jpg" class="img-fluid" />
+              <p class="text-right">Seaside Sanctuary Placeholder Image.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+
+    <div class="linkCopied">
+      <h5 class="mb-0 text-info">Link Copied!</h5>
+    </div>
+
+    <section class="contact py-5" id="donate">
+      <div class="container">
+        <!-- <h5 class="sub_title text-center" data-aos="fade-up" data-aos-duration="1000">
+          touch with us
+        </h5> -->
+        <h1 class="main_title text-center" data-aos="fade-up" data-aos-duration="1200">
+          Whales Save Whales. Vote with your wallet.
+        </h1>
+        <div class="row justify-content-center py-5" data-aos="fade-in" data-aos-duration="1500">
+          <div class="col-lg-8">
+            <div class="card contact_card text-white">
+              <p class="text-center text-white">Donate ANY amount (in ETH) to earn the 2023 WSW POAP <br>“bitcoin solar
+                powerhouse &lt;&gt; eth ocean vibes”<br>(POAP holders may be selected on future allowlists)</p>
+              <br>
+              <p>WhalesSaveWhales Multi-Sig Wallets:</p>
+              <h5><code class="text-info">ETH:<span class="eth-code"> 0x5034eF24d50c55148326cFFa54B27eF1c2d73f13</span>
+                  <span onclick="copyToClipboard('.eth-code')" role="button">[COPY]</span></code>
+              </h5>
+              <h5><code class="text-info">BTC:<span class="btc-code"> 3BRgesrjFFeQYDRNPERyzo5DehMmpJMd5R</span> <span
+                    onclick="copyToClipboard('.btc-code')" role="button">[COPY]</span></code>
+              </h5>
+              <br>
+              <small>
+                *Multi-Sig wallets require multiple signatures to move funds, they are the treasury-management standard
+                for DAOs. WSW wallets are controlled by Phil (@walruswhisperer) and co-founder @madlog1c, with growth
+                and preservation as our initial priority. Additional signors will be added as we grow.
+              </small>
+              <br>
+              <form id="contact_form" method="POST">
+                <div class="form-group">
+                  <label for="email">Submit you email address if you would like updates:</label>
+                  <input type="email" class="form-control" name="email" id="email" placeholder="" required />
+                </div>
+                <button type="submit" class="btn btn-theme form-submit mt-2">Submit</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+<!-- removed 'DONATE' page from here -->
+  </main>
+
+  <footer class="footer-bg">
+    <div class="container">
+      <div class="row px-3 justify-content-between">
+        <div class="col-lg-6" data-aos="fade-right" data-aos-duration="1500">
+            <p>First time learning about whales? Here are some resources:</p>
+            <ul class="list-unstyled">
+                <li>
+                    <i class="fas fa-check-circle mr-1 text-info"></i><a href="https://youtu.be/GimCcrwYxdE"><em>The Insane Biology of: The Orca</em></a> Real Science
+                </li>
+                <li>
+                    <i class="fas fa-check-circle mr-1 text-info"></i><a href="https://youtu.be/M18HxXve3CM"><em>How Whales Change Climate</em></a> Sustainable Human
+                </li>
+                <li>
+                    <i class="fas fa-check-circle mr-1 text-info"></i><a href="https://youtu.be/Khin0_S7uKo"><em>6 years on, I am Morgan ~ Stolen Freedom</em></a>
+                </li>
+                <li>
+                    <i class="fas fa-check-circle mr-1 text-info"></i><a href="https://www.walrusandwhistleblower.com"><em>The Walrus and the Whistleblower</em></a> Nathalie Bibeau
+                </li>
+                <li>
+                    <i class="fas fa-check-circle mr-1 text-info"></i><a href="https://disneyplusoriginals.disney.com/show/secrets-of-the-whales"><em>Secrets of the Whales</em></a> National Geographic
+                </li>
+                <li>
+                    <i class="fas fa-check-circle mr-1 text-info"></i><a href="https://www.blackfishmovie.com"><em>Blackfish</em></a> Gabriela Cowperthwaite
+                </li>
+            </ul>
+        </div>
+        <div class="col-lg-6" data-aos="fade-left" data-aos-duration="1500">
+            <p>First time learning about web3/crypto/etc? Here are some resources:</p>
+            <ul class="list-unstyled">
+                <li>
+                    <i class="fas fa-check-circle mr-1 text-info"></i><a href="https://ethereum.org/en/">Ethereum</a>
+                </li>
+                <li>
+                    <i class="fas fa-check-circle mr-1 text-info"></i><a href="https://bitcoin.org/en/">Bitcoin</a>
+                </li>
+                <li>
+                    <i class="fas fa-check-circle mr-1 text-info"></i>Wallets: <a href="https://metamask.io/index.html">MetaMask</a>, <a href="https://www.argent.xyz">Argent</a>
+                </li>
+                <li>
+                    <i class="fas fa-check-circle mr-1 text-info"></i><a href="https://www.bankless.com/going-bankless">Going Bankless: The Ultimate Guide</a>
+                </li>
+                <li>
+                    <i class="fas fa-check-circle mr-1 text-info"></i><a href="https://youtu.be/karddOiv4ZA"><em>The Crypto Renaissance</em></a> Josh Rosenthal | Bankless
+                  </li>
+                  <li>
+                      <i class="fas fa-check-circle mr-1 text-info"></i><a href="https://youtu.be/M576WGiDBdQ"><em>Solidity, Blockchain, and Smart Contract Course</em></a> freeCodeCamp.org - Just watch the intro I dare you!
+                  </li>
+              </ul>
+          </div>
+      </div>
+    </div>
+      <div class="row justify-content-center text-center text-white" style="border-top: 1px solid #fff">
+        <div class="col-lg-6">
+          <ul class="list-unstyled list-inline-items social_link_main pt-4 m-0">
+            <li class="align-items-baseline d-flex">
+              <a target="_blank" href="https://discord.com/"><img src="assets/images/discord.png"
+                  class="img-fluid" /></a>
+            </li>
+            <li class="align-items-baseline d-flex">
+              <a target="_blank" href="https://twitter.com/"><img src="assets/images/twitter-icon.png"
+                  class="img-fluid" /></a>
+            </li>
+            <li class="align-items-baseline d-flex">
+              <a target="_blank" href="https://mirror.xyz/"><img src="assets/images/mirror.png" class="img-fluid" /></a>
+            </li>
+
+            <li class="align-items-baseline d-flex">
+              <a target="_blank" href="https://opensea.io/"><img src="assets/images/opensea.png"
+                  class="img-fluid" /></a>
+            </li>
+          </ul>
+          <!-- <p class="pt-4 m-0">
+            © 2021-2022 Whales Save Whales. All Rights Reserved
+          </p> -->
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- Back To Top -->
+  <a id="backToTop">
+    <i class="fa fa-chevron-up"></i>
+  </a>
+  <!-- Scripts -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://cdn.rawgit.com/t4t5/sweetalert/v0.2.0/lib/sweet-alert.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/1.7.1/clipboard.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+  <script>
+    $("#contact_form").submit(function (e) {
+      e.preventDefault();
+      $("button.form-submit").prop("disabled", true);
+      email = $('#email').val();
+      // timestamp
+      var d = new Date();
+      date = d.toDateString();
+      var hours = d.getHours();
+      var mins = d.getMinutes();
+      var seconds = d.getSeconds();
+      time = hours + ":" + mins + ":" + seconds;
+      timestamp = time.concat(date);
+
+      $.ajax({
+        url: 'https://script.google.com/macros/s/AKfycbwmFU5iY4tFW0QtVDRaloekn7WJMjGeVKEPt-vdqedbOo0GN-wPosmUFOtf4ayMTBz9/exec',
+        type: 'POST',
+        data: {
+          email: email,
+          timestamp: timestamp
+        },
+        success: function (result) {
+          swal({
+              title: "Thanks for your submission",
+              text: "We will send major updates by email.",
+              type: "success",
+              confirmButtonColor: "#0ea6ff",
+              confirmButtonText: "OK!",
+            },
+            function (isConfirm) {
+              if (isConfirm) {
+                window.location.href = "index.html";
+              }
+            }
+          );
+        }
+      });
+    });
+  </script>
+  <script src="assets/js/script.js"></script>
+</body>
+
+</html>
