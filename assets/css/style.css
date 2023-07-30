@@ -246,6 +246,23 @@ footer {
     color: var(--theme-primary);
 }
 
+@media (max-width: 768px) {
+    .counter_box .main_title {
+        font-size: 4vw;
+    }
+
+    .counter_box .stats {
+        font-size: 3.5vw;
+        line-height: 1.6;
+    }
+
+    .counter_box {
+        max-width: 90%;
+        margin: 0 auto;
+    }
+}
+
+
 
 /* About */
 .obstacles {
@@ -1181,9 +1198,12 @@ footer {
     border: 1px solid;
     padding: 10px 10px 0 10px;
     z-index: 999;
-    background-color: rgba(0,0,0,0.6); /* adding some background color for better readability */
-    text-align: center; /* center the text */
-    max-width: 90%; /* prevent the box from getting too wide */
+    background-color: rgba(0, 0, 0, 0.6);
+    /* adding some background color for better readability */
+    text-align: center;
+    /* center the text */
+    max-width: 90%;
+    /* prevent the box from getting too wide */
 }
 
 .counter_box .value {
@@ -1210,43 +1230,72 @@ footer {
     margin: 5% auto;
     padding: 20px;
     /*transition: background-color .5s, box-shadow .5s;*/
-  }
-  
-  /* .counter_box:hover {
+}
+
+/* .counter_box:hover {
     background-color: #ffff;
     box-shadow: 0 30px 30px rgba(0, 0, 0, 0.3);
     transition: background-color .5s, box-shadow .5s;
   } */
-  
-  .main_title {
+
+.main_title {
     font-size: 28px;
     font-family: 'Roboto', sans-serif;
     margin-top: 15px;
     color: #768CA4;
     text-align: center;
-  }
-  
-  .text-right {
+}
+
+.text-right {
     font-size: 15px;
     padding-left: 20px;
     color: #768CA4;
     font-family: 'Roboto', sans-serif;
-  }
-  
-  .additional-info {
+}
+
+.additional-info {
     font-size: 15px;
     color: #768CA4;
     font-family: 'Roboto', sans-serif;
     text-align: center;
     margin-top: 20px;
-  }
+}
 
-  .highlight {
+.highlight {
     color: white;
     font-weight: bold;
-  }
+}
 
-  .red-highlight {
+.red-highlight {
     color: #7E3517;
     font-weight: 900;
-  }
+}
+
+
+@media (max-width: 768px) {
+    .counter_box .main_title {
+        font-size: 0.65rem;
+        text-align: center;
+        margin-top: -10px;
+    }
+
+    .counter_box .text-right {
+        font-size: 0rem;
+        text-align: left;
+    }
+
+    .counter_box .additional-info {
+        font-size: 0.5rem;
+        margin-top: -25px;
+        text-align: left;
+    }
+
+    .counter_box {
+        max-width: 40%;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: center;
+    }
+}
